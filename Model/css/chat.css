@@ -1,0 +1,50 @@
+.pricetitle{background-color: #00BCD4;padding: 15px 20px;border-radius: 5px;margin-bottom: 8px;}
+.srch form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.srch form {
+    /* float: right; */
+    width: 100%;
+    /* font-size: 21px; */
+}
+
+input.srchbox {
+    width: 70%;
+}
+
+input#srch {
+    width: 13%;
+    background: #09770F;
+    color: #FFF;
+    /* font-size: 14px; */
+    cursor: pointer;
+}
+
+.chat {
+    margin: 40px auto;
+	 overflow: hidden;
+}
+
+.chat p {
+    padding: 10px;
+    background: #DFFBBE;
+    float: left;
+    width: 75%;
+}
+
+.chat h4 {
+    float: left;
+	background: #DABD17;
+    width: 20%;
+    padding: 10px;
+	color: white;
+}
+.schat {
+    margin: 15px auto;
+    overflow: hidden;
+}
+

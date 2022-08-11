@@ -1,0 +1,115 @@
+.pricetitle{background-color: #00BCD4;padding: 15px 20px;border-radius: 5px;margin-bottom: 8px;}
+
+.list{background-color: #8cd1da;padding: 0px 5px;border-radius: 5px;margin-bottom: 8px;overflow: hidden;}
+
+.listcheck{width: 5%;text-align: center;padding: 16px 5px;float:left}
+
+.pname{width: 40%;padding: 15px 5px;font-size: 17px;float:left}
+
+.pprice{width: 20%;padding: 15px 5px;font-size: 17px;text-align: center;float: left;}
+
+.pincrese{width: 10%;padding: 15px 5px;float: left;text-align: center;overflow: hidden;}
+
+.pincrese input{border: none;width: 50px;font-size: 17px;float: left;font-weight: 60;text-align: center;background-color: #8cd1da;}
+
+.ptprice{width: 18%;padding: 15px 5px;font-size: 17px;float: left;text-align: center;}
+
+.totallist{overflow: hidden;}
+
+.totalprice{background-color: #00BCD4;width: 20%;padding: 15px 5px;font-size: 17px;float: right;text-align: center;border-radius: 0px 5px 5px 0px;
+		margin-bottom: 8px;}
+
+.total{background-color: #00BCD4;width: 15%;padding: 15px 5px;font-size: 17px;float:right;text-align: center;border-radius: 5px 0px 0px 5px;
+        margin-bottom: 8px;}
+
+.sellbtn{}
+
+.sellbtn button{background-color: #09790f;padding: 12px 20px;border-radius: 5px;margin-bottom: 5px;color:#ffffff;font-size: large;width: 100%;border: none;
+        cursor: pointer;}
+
+.buyerlist {margin: 20px auto;overflow: hidden;}
+            
+select#buyer {float: right;width: 226px;height: auto;font-size: 18px;padding: 10px;border: none;background: #8641E9;color: #fff;outline: none;border-radius: 5px;}
+
+.buyer{float: right;}
+
+.plist {overflow: hidden;width: 100%;}
+
+ul {text-decoration: none;list-style-type: none;}
+
+input#price {width: 20%;text-align: center;background: none;border: navajowhite;color: black;font-size: 15px;}
+input#tprice {width: 20%;text-align: center;background: none;border: navajowhite;color: black;font-size: 15px;}
+
+.srch {
+    float: left;
+    width: 70%;
+    /* font-size: 20px; */
+}
+
+div#main {
+    overflow: hidden;
+    margin: 20px auto;
+    font-size: 15px;
+    /* cursor: pointer; */
+}
+
+.search {
+    float: left;
+    margin: 0px 0px 0px 20px;
+    width: 27%;
+}
+
+.srch form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.srch form {
+    /* float: right; */
+    width: 100%;
+    /* font-size: 21px; */
+}
+
+input.srchbox {
+    width: 70%;
+}
+
+input#srch {
+    width: 25%;
+    background: #09770F;
+    color: #FFF;
+    /* font-size: 14px; */
+    cursor: pointer;
+}
+
+.search {
+    /* width: 11%; */
+}
+
+button#pbtn {
+    float: left;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: #09770F;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;	
+}
+
+.pTable table, tr, th, td {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+table th{  
+    background-color: #00B4B4;  
+  
+}

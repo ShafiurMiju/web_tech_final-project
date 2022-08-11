@@ -1,0 +1,72 @@
+Servername: web_project_final
+________________________________________________________________________
+
+Table:
+_____________________________________
+
+
+buyer:
+_______
+
+CREATE TABLE `buyer` (
+ `first_name` varchar(30) NOT NULL,
+ `last_name` varchar(30) NOT NULL,
+ `email` varchar(30) NOT NULL,
+ `phone_number` varchar(15) NOT NULL,
+ `password` varchar(30) NOT NULL,
+ `district` varchar(30) NOT NULL,
+ `upzilla` varchar(30) NOT NULL,
+ `address` varchar(50) NOT NULL,
+ `gender` varchar(10) NOT NULL,
+ `dob` date NOT NULL,
+ `img` blob DEFAULT NULL,
+ PRIMARY KEY (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+
+
+__________________________________________________________________________
+
+product:
+________	
+
+CREATE TABLE `product` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `name` varchar(30) NOT NULL,
+ `price` varchar(10) NOT NULL,
+ `quantity` varchar(10) NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4
+
+
+__________________________________________________________________________
+
+request:
+________
+
+CREATE TABLE `request` (
+ `rid` int(11) NOT NULL AUTO_INCREMENT,
+ `pname` varchar(500) NOT NULL,
+ `tprice` int(11) NOT NULL,
+ PRIMARY KEY (`rid`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4
+
+
+__________________________________________________________________________
+
+seller:
+________
+
+CREATE TABLE `seller` (
+ `first_name` varchar(30) NOT NULL,
+ `last_name` varchar(30) NOT NULL,
+ `email` varchar(30) NOT NULL,
+ `phone_number` varchar(30) NOT NULL,
+ `password` varchar(30) NOT NULL,
+ `district` varchar(30) NOT NULL,
+ `upzilla` varchar(30) NOT NULL,
+ `address` varchar(30) NOT NULL,
+ `gender` varchar(30) NOT NULL,
+ `dob` date NOT NULL,
+ `img` blob DEFAULT NULL,
+ PRIMARY KEY (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4

@@ -1,0 +1,13 @@
+.noticeheading{background-color: #29AAE3;border: none;padding: 15px;color:#FFF;border-radius: 10px 10px 0px 0px;margin-bottom: 20px ;}
+
+.singlenotice{background-color: #D3E7F0;padding: 15px;margin-bottom: 15px;overflow: hidden;border-radius: 5px 5px 0px 0px;}
+
+.noticedate{width: 20%;float: left;}
+
+.noticedate p{width: 100%;text-align: center;padding: 0px 5px 5px 0px;font-size: 25px;font-weight: 900;color: rgb(17, 177, 81);}
+
+.noticebody{width: 78%;float: left;padding-left: 2%;}
+
+.noticebody p:nth-child(2){padding: 5px 5px 15px 0px;font-size: 17px;font-weight: 500;color: #010101;line-height: 1.5;}
+
+.noticetitle{padding: 5px 5px 15px 0px;font-size: 18px;font-weight: 700;color: #29AAE3;}

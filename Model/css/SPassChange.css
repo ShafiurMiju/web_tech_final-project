@@ -1,0 +1,28 @@
+.profilemenubar{overflow: hidden;}
+
+.aboutyou{margin-top: 25px;}
+
+.profilemenubar ul li{background-color: rgb(180, 202, 194);padding: 16px 20px;border-radius: 5px 0px 0px 0px;margin-bottom: 5px;list-style-type: none;
+        width: 28.5%;float: left;text-align: center;}
+
+.profilemenubar ul li:last-child{border-radius: 0px 5px 0px 0px;}
+
+.profilemenubar ul li:nth-of-type(2){border-radius: 0px 0px 0px 0px;}
+
+.profilemenubar ul li a{text-decoration: none;font-size: 17px;font-weight: 600;color: green;cursor: pointer;}
+
+.profileinfoc{margin: 50px 10px 10px 20px;}
+
+.profileinfoc table{width: 100%;}
+
+.profileinfoc table th{text-align: left;padding: 15px 30px;color: rgb(9, 113, 26);border: none;
+        border-radius: 5px 5px 0px 0px;width: 35%;}
+
+.profileinfoc table td{color: rgb(9, 95, 36);border: none;font-weight: 500;border-radius: 5px 5px 0px 0px;
+        padding-left: 15px;}
+
+input {background-color: transparent;border: 1px solid blue; width: 95%; border-radius: 5px; font-size: 15px;padding: 10px 5px;}
+
+.esave{background-color: #5CBBE9;color: green;font-size: 20px;font-weight: 900;border: none;cursor: pointer;width: 220px;margin-top: 50px;}
+        
+.message{margin-top: 50px;}

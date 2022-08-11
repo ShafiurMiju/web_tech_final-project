@@ -1,0 +1,35 @@
+.notificationheading{
+    background-color: #29AAE3;
+    border: none;
+    padding: 15px;
+    color:#FFF;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 20px ;
+}
+.notification{
+    overflow: hidden;
+}
+
+.singlenotification{
+    background-color: #D3E7F0;
+    padding: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.notificationimg{
+    width: 10%;
+    float: left;
+}
+
+.notificationimg img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.notificationbody p{
+    font-size: 16px;
+    padding-top: 5px;
+}

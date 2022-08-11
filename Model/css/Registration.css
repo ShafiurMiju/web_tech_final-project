@@ -1,0 +1,165 @@
+*{
+	padding:0px;
+	margin:0px;
+	outline:none;
+}
+
+#container{
+	margin-top: 50px;
+}
+
+body{
+	background-color:#ffffff;
+    color: black;
+	font-family: Arial, Helvetica, sans-serif;
+    border:none;
+}
+
+form{
+    overflow: hidden;
+}
+
+.boxarea{
+	position: relative;
+	margin: auto;
+	width: 400px;
+	background-color: rgb(207, 214, 219);
+	border-radius: 10px;
+	padding:15px;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+	text-align: center;
+}
+
+.boxtext{
+    margin: 20px 0px 15px 0px;
+    font-size: 18px;
+}
+
+.underline{
+    border: 1px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+.username{
+    position: relative;
+    width: 400px;
+}
+
+.fname {
+    width: 48%;
+    float: left;
+    overflow: hidden;
+}
+
+.formbox input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    /* overflow: hidden; */
+}
+
+.lname {
+    width: 48%;
+    float: right;
+    overflow: hidden;
+}
+
+.email {
+    width: 100%;
+    display: inline-block;
+}
+
+.email input {
+    width: 400px;
+}
+
+.phonenumber input {
+    width: 400px;
+}
+
+.password input {
+    width: 400px;
+}
+
+.address input {
+    width: 400px;
+}
+
+.district {
+    width: 48%;
+    float: left;
+}
+
+.formbox select {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+}
+
+.upzilla {
+    width: 48%;
+    float: right;
+}
+
+.gender {
+    width: 48%;
+    float: left;
+}
+
+.dob {
+    width: 48%;
+    float: right;
+}
+
+.dob input{
+    width: 100%;
+}
+
+.termcon{
+    display: inline-block;
+    font-size: 10px;
+}
+
+.sellerbtn input{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin: 25px 0px 20px 0px;
+    width: 50%;
+    background-color: blue;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.buyerbtn input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+    background-color: blue;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.sellerbtn input:hover{
+    background-color: #5074d9;
+}
+
+.buyerbtn input:hover{
+    background-color: #5074d9;
+}
+
+
+.backindex a{
+    text-decoration: none;
+    font-weight: bold;
+}
+

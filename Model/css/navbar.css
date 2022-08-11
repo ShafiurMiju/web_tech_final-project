@@ -1,0 +1,21 @@
+*{padding:0px;margin:0px;outline:none}
+
+body{background-color:#ffffff;color: black;font-family: Arial, Helvetica, sans-serif;border:none;
+    background-image: radial-gradient(circle, rgb(231 185 185) ,rgb(214 195 160),rgb(165 165 130),rgb(163 178 163),rgb(144 144 172),#b8abc2,#cebace);}
+
+.container{width: 1170px;margin: 15px auto 15px auto;}
+
+#navbar{background-color: rgb(255, 255, 255);width: 25%;float: left;position: sticky;background: transparent;}
+
+.sname{background-color: #D3E7F0;padding: 18px 20px;border-radius: 5px;margin-bottom: 8px;padding-top: 10px;}
+
+.menubar ul li{background-color: rgb(180, 202, 194);padding: 16px 20px;border-radius: 5px;margin-bottom: 5px;list-style-type: none;}
+
+.menubar ul li a{text-decoration: none;font-size: 16px;font-weight: 500;color: green;}
+
+.logoutbtn input{background-color: rgb(187, 43, 43);padding: 12px 20px;border-radius: 5px;margin-bottom: 5px;color: white;font-size: large;
+    width: 100%;border: none;cursor: pointer;}
+
+#sectionbar{width: 75%;background-color: rgb(255, 255, 255);float: right;overflow: hidden;background: transparent;}
+
+.ssectionbody{width: 95%;margin: 0px auto;border: 1px solid black;border-radius: 2px;padding: 10px;overflow: hidden;min-height: 95vh;}
